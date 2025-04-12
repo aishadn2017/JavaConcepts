@@ -1,4 +1,4 @@
-package com.basics.java.oop.inheritance;
+package com.javaconcepts.oop.inheritance;
 
 public class Vehicle {
 

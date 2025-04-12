@@ -1,4 +1,4 @@
-package com.basics.java.math;
+package com.javaconcepts.math;
 
 public class CalculatorApp {
 

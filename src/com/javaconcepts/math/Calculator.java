@@ -1,4 +1,4 @@
-package com.basics.java.math;
+package com.javaconcepts.math;
 
 public interface Calculator {
     int sum (int v1, int v2);
