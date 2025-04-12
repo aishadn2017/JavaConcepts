@@ -25,7 +25,7 @@ public class Application {
         Vehicle v;
 
         do {
-            System.out.println("Please enter value: ");
+            System.out.println("Please enter value test: ");
             input = scanner.nextInt();
 
             System.out.println("Entered Value is: " + input);
