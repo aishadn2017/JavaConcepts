@@ -1,28 +1,19 @@
-package com.javaconcepts.oop.inheritance;
-
-import com.javaconcepts.encapsulation.Student;
-import com.javaconcepts.oop.inheritence.Bike;
-import com.javaconcepts.oop.inheritence.Boat;
-import com.javaconcepts.oop.inheritence.Car;
-import com.javaconcepts.oop.inheritence.Vehicle;
+package com.javaconcepts.oop.inheritence;
 
 import java.util.Scanner;
 
 public class InheritanceApp {
 
     public static void main(String[] ard) {
-        //drive();
+        drive();
 
-        Student s1 = new Student();
-        s1.setName("Ali");
-        System.out.println(s1.getName());
     }
 
     public static void drive(){
 
         Scanner scanner = new Scanner(System.in);
         int input;
-        Vehicle v;
+        Vehicle v = null;
 
         do {
             System.out.println("Please enter value test: ");
@@ -36,11 +27,11 @@ public class InheritanceApp {
                 v = new Bike();
             } else if (input == 3) {
                 v = new Boat();
-            } else {
-                v = new Vehicle();
             }
 
-            startAnyEngine(v);
+            if (input == 1 || input == 2 || input == 3) {
+                startAnyEngine(v);
+            }
 
         } while (input != 0);
 

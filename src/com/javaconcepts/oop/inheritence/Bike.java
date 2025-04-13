@@ -6,4 +6,9 @@ public class Bike extends Vehicle{
     public void startEngine() {
         System.out.println("I am Bike");
     }
+
+    @Override
+    public void horn() {
+
+    }
 }

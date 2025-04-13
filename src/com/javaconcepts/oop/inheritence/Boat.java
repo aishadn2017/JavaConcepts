@@ -6,4 +6,9 @@ public class Boat extends Vehicle{
 
         System.out.println("I am Boat");
     }
+
+    @Override
+    public void horn() {
+
+    }
 }

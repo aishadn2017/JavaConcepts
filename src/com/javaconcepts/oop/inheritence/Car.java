@@ -8,4 +8,9 @@ public class Car extends Vehicle {
         System.out.println("I am Car");
     }
 
+    @Override
+    public void horn() {
+
+    }
+
 }
